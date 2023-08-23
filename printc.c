@@ -10,6 +10,8 @@ int printchar(va_list *args)
 {
 	char s = va_arg(*args, int);
 
+	if (s == '\n')
+		return (0);
 	put(s);
 	return (1);
 }
