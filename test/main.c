@@ -3,6 +3,6 @@ int main(void)
 {
 	char *s = "hello";
 	_printf("%s\n", s);
-	_printf("\n");
+	_printf("%d\n", 1560133635);
 return (0);
 }
