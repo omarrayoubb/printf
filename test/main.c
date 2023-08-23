@@ -1,10 +1,8 @@
 #include "main.h"
 int main(void)
 {
-	int c =_printf(NULL);
-	printf("%d", c);
- /*	_printf("%c", '\n');*/
-	printf("%c", '\n');
-	_printf("%c", '\n');
+	char *s = "hello";
+	_printf("%s\n", s);
+	_printf("\n");
 return (0);
 }
