@@ -11,12 +11,12 @@ int (*findspec(char s))(va_list *)
 	spec op[] = {
 		{'c', printchar},
 		{'s', printstring},
-		{'d', printint}
-	/*	{'i', printint}*/
+		{'d', printint},
+		{'i', printint}
 	};
 	int j = 0;
 
-	for (j = 0; j < 4; j++)
+	for (j = 0; j < 5; j++)
 	{
 		if (op[j].c == s)
 			return (op[j].func);
