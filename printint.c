@@ -6,7 +6,7 @@
 */
 int printint(va_list *args)
 {
-	int num = va_arg(args, int), bytes = 0;
+	int num = va_arg(*args, int), bytes = 0;
 
 	if (num == 0)
 	{
@@ -31,7 +31,7 @@ int pnums(int n)
 {
 	int count_digit = 0, x = n;
 	int i, j;
-	char* s;
+	char *s;
 
 	while (x > 0)
 	{
