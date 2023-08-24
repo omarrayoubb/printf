@@ -48,5 +48,5 @@ int pnums(int n)
 	{
 		put(s[j]);
 	}
-	return (0);
+	return (count_digit);
 }
