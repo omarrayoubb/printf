@@ -8,6 +8,8 @@ int printint(va_list *args)
 {
 	int num = va_arg(*args, int), bytes = 0;
 
+	if (!num)
+		return (0);
 	if (num == 0)
 	{
 		put('0');

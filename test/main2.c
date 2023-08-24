@@ -1,7 +1,7 @@
 #include "main.h"
 int main()
 {
-	int x =19;
-	printf("%d", x);
+	printf("%d", -827343);
+	_printf("%d", -827343);
 	return (0);
 }
