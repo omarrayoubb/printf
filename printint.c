@@ -4,7 +4,7 @@
  * @args:parameter
  * Return: bytes
 */
-int printint(va_list args)
+int printint(va_list *args)
 {
 	int num = va_arg(args, int), bytes = 0;
 
