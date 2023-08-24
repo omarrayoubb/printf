@@ -11,8 +11,8 @@ int (*findspec(char s))(va_list *)
 	spec op[] = {
 		{'c', printchar},
 		{'s', printstring},
-		{'d', printint},
-		{'i', printint}
+		{'d', printint}
+	/*	{'i', printint}*/
 	};
 	int j = 0;
 
